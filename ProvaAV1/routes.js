@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Marker = require('./models/marker'); 
+const Marker = require('./marker'); 
 
 router.get('/location', async (req, res) => {
   try {
